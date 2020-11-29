@@ -1,0 +1,29 @@
+.header{
+    background-color: #0d496f;
+    /* background-color: 'red'; */
+  }
+
+.custom-brand{
+    /* font-family: 'Segoe UI'; */
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 40px;
+}  
+.custom-nav-item{
+    /* font-family: 'Segoe UI'; */
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    /* line-height: 40px; */
+}  
+.custom-nav-link{
+    text-decoration: none;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+a.hover{
+    text-decoration: none;
+}
