@@ -16,7 +16,7 @@ class Home extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:5000/ems/')
+        axios.get('/ems/')
             .then((result) => {
                 delete this.state.data;
                 this.setState({

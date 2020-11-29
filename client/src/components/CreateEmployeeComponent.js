@@ -33,7 +33,7 @@ class CreateEmployeeComponent extends React.Component{
         e.preventDefault();
         const data = this.state
         delete data.redirect
-        axios.post('http://localhost:5000/ems/add',data)
+        axios.post('/ems/add',data)
             .then((result) => {
                 console.log(result)
                 this.setState({redirect: true})

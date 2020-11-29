@@ -47,7 +47,7 @@ class EditEmployeeComponent extends React.Component {
         const data = this.state
         // delete data.id
         console.log(data)
-        axios.put('http://localhost:5000/ems/edit', data)
+        axios.put('/ems/edit', data)
             .then((result) => {
                     console.log(result)
                     this.setState({ redirect: true })

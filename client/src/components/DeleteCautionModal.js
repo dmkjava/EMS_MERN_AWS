@@ -26,7 +26,7 @@ class DeleteCautionModal extends React.Component {
         //           },
         //     })
             axios({
-                url: 'http://localhost:5000/ems/delete',
+                url: '/ems/delete',
                 method:'delete',
                 data : {id: this.props.id},
               })
