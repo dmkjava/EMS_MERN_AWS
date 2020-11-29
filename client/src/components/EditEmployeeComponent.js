@@ -21,7 +21,7 @@ class EditEmployeeComponent extends React.Component {
     }
     componentDidMount(){
         console.log("from componentDidMount");
-        axios.get('/ems/id/' + this.state.id)
+        axios.get(`/ems/id/${this.state.id}`)
         .then((result) => {
             const data = result.data.data
             this.setState({
