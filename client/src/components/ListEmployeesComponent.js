@@ -28,7 +28,7 @@ class ListEmployeesComponent extends React.Component {
 	}
     
     render() {
-        const url = 'http://localhost:3000/'
+        // const url = 'http://localhost:5000/'
         const lists = this.props.list.map((e, i) => {
             // console.log(e);
              return (
