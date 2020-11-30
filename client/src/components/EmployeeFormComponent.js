@@ -10,18 +10,18 @@ class EmployeeFormComponent extends React.Component{
     render(){
         return(
             <Form onSubmit={this.props.handleSubmit}>
-                <FormGroup as={Col}>
+                <FormGroup as={Row}>
                     <Col sm={1}>
                         <Form.Label htmlFor="name" sm={2}>Name</Form.Label>
                     </Col>
-                    <Col sm={4}>
+                    <Col sm={10}>
                         <Form.Control
                             name="employee_name"
                             type="text"
                             placeholder="Name"
                             value={this.props.Name}
                             onChange={this.props.InputChangeHandler}
-							style={{borderWidth: "3px", borderStyle: "solid", borderColor:"#78adc8", borderRadius: "8px", height: "60px"}}
+							style={{borderWidth: "2px", borderStyle: "solid", borderColor:"#78adc8", borderRadius: "10px", height: "40px"}}
 
 
                         />
